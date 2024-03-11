@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "prettier"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "liveServer.settings.port": 5502
+}

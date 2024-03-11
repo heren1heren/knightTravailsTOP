@@ -1,0 +1,30 @@
+// //* demo style sheet
+// @mixin flexCenterWithDir($direction) {
+//     //! function with argument
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: $direction;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// $primaryBtn: pink; //! $ variable
+// $textColor: rgb(58, 42, 42);
+// header {
+//     @include flexCenterWithDir(column); //! @include
+//     background: lightblue;
+//     color: $textColor;
+//     button {
+//         background: $primaryBtn;
+//         &:hover {
+//             // !&
+//             background: red;
+//         }
+//     }
+// }
+// .contact {
+//     background: $primaryBtn;
+//     @extend header; //! extend
+//     background: lightcoral;
+//     width: 100% - 20%;
+// }
